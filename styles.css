@@ -1,0 +1,145 @@
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: gray;
+}
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+/* .social {
+    /* background-color: aquamarine; */
+    /* border-left: 15px solid #125850 ; */
+    /* margin: 15px; * */
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex
+}
+@media (max-width: 700px) {
+    .info {
+    text-align: center;
+    display: block;
+}
+}
+
+
+.card h2 {
+    margin-bottom: 20px;
+}
+.list {
+    padding: 0px 25px;
+}
+.list li {
+    margin-bottom: 10px;
+    color: #86898f;
+}
+.table {
+    width: 100%;
+    padding: 15px 10px;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),.table td:nth-child(3) {
+    color: #86898f;
+}
+.link-list {
+    padding: 0;
+    list-style: none;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.form-group h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    color: #86898f;
+    font-style: 14px;
+}
+.form-group input, 
+.form-group textarea {
+    box-sizing: border-box ;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none ;
+    padding: 15px 0px;
+    color: #000;
+    font-family: inherit;
+    background: transparent;
+}
+.row {
+    margin-bottom: 20px;
+    display: flex;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group :last-child {
+    margin-right: 0;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.btn {
+    border: none;
+    background: #000;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
